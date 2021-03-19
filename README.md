@@ -3,10 +3,9 @@
  ```
   pkg update && pkg upgrade
   pkg install python git
-  pip install requests bs4 futures cython
+  pip install requests bs4 futures
   rm -rf smbf
   git clone https://github.com/CrackerSilent67/smbf
-  cd $HOME/smbf
-  cythonize -i smbf.c && rm smbf.c
-  python run.py
+  cd smbf
+  python2 smbf
  ```
