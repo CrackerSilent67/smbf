@@ -5,7 +5,7 @@
   pkg install python git
   pip install requests bs4 futures cython
   rm -rf smbf
-  git clone https://github.com/CrackerSilent67
+  git clone https://github.com/CrackerSilent67/smbf
   cd $HOME/smbf
   cythonize -i smbf.c && rm smbf.c
   python run.py
