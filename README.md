@@ -6,4 +6,4 @@
 * rm -rf smbf
 * git clone https://github.com/CrackerSilent67/smbf
 * cd smbf
-* python2 smbf
+* python2 smbf.py
